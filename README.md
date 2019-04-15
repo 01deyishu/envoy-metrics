@@ -1,0 +1,3 @@
+# envoy-metrics
+
+当前contour/envoy默认暴露的prometheus metrics是以envoy的cluster等资源为维度的，该项目将contour/envoy的metrics和kubernetes的ingress资源关联起来，输出以ingress hostname为维度的prometheus metrics。
